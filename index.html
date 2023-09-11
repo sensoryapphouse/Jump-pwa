@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jump</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">-->
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <btn id="splash" width="650" height="350" style="position:absolute;"></btn>
+        <canvas id="player" width="650" height="350" style="position:absolute;"></canvas>
+        <canvas id="background" width="650" height="350" style="position:absolute;"></canvas>
+        <canvas id="canvas" width="650" height="350" style="position:absolute;"></canvas>
+        <canvas id="canvas1" width="650" height="350" style="position:absolute;"></canvas>
+        <canvas id="canvas5" width="650" height="350" style="position:absolute;"></canvas>
+        <splash class="btn" enabled></splash>
+        <panel class="img" enabled></panel>
+        <button class="btn" enabled></button>
+        <button1 class="btn" enabled></button1>
+        <button2 class="btn" enabled></button2>
+        <button3 class="btn" enabled></button3>
+        <button4 class="btn" enabled></button4>
+        <button5 class="btn" enabled></button5>
+        <button6 class="btn" enabled></button6>
+        <button7 class="btn" enabled></button7>
+        <settings class="btn" enabled></settings>
+        <home class="btn" enabled></home>
+    </div>
+
+    <audio loop="loop" id="Background-AudioPlayer" preload="auto">
+        <source src="audio/music.wav" type="audio/wav" />
+    </audio>
+    <audio id="GameOver-AudioPlayer" preload="auto">
+        <source src="audio/hit.wav" type="audio/wav">
+    </audio>
+    <audio id="Jump-AudioPlayer" preload="auto">
+        <source src="audio/jump.wav" type="audio/wav" />
+    </audio>
+    <audio id="Ching-AudioPlayer" preload="auto">
+        <source src="audio/ching.mp3" type="audio/mp3" />
+    </audio>
+    <script src="gamepads.js"></script>
+    <script src="main.js"></script>
+    <script src="js/scene.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/draw.js"></script>
+    <script src="js/level.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/explosive.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,284 @@
+html,
+div,
+body,
+canvas {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transition: 1s opacity;
+    background-size: 100vw 100vh;
+    border-bottom: 10px solid #9b59b6;
+    background-color: black;
+}
+
+canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transition: 1s opacity;
+    background-size: 100vw 100vh;
+    border-bottom: 10px solid #9b59b6;
+    background-color: transparent;
+}
+
+
+splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/splash.jpg);
+    background-size: 100vw 100vh;
+    background-color: black;
+    opacity: 1.0;
+    z-index: 999;
+    -webkit-app-region: no-drag;
+}
+
+
+panel {
+    position: absolute;
+    top: 0vh;
+    left: 130vw;
+    width: 25%;
+    height: 30%;
+    border-radius: 0vh;
+    border: inset;
+    outline: none;
+    background: url(images/panel.png);
+    background-size: 100% 100%;
+    opacity: .9;
+    z-index: 1005;
+    -webkit-app-region: no-drag;
+}
+
+button {
+    position: absolute;
+    top: 21vh;
+    left: 17.35vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/1.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button:hover {
+    opacity: 1.0;
+}
+
+button1 {
+    position: absolute;
+    top: 21vh;
+    left: 36.67vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/2.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button1:hover {
+
+    opacity: 1.0;
+}
+
+button2 {
+    position: absolute;
+    top: 21vh;
+    left: 55.7vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/3.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button2:hover {
+    opacity: 1.0;
+}
+
+
+button3 {
+    position: absolute;
+    top: 21vh;
+    left: 75.15vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/4.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button3:hover {
+    opacity: 1.0;
+}
+
+button4 {
+    position: absolute;
+    top: 55.2vh;
+    left: 17.35vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/5.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button4:hover {
+    opacity: 1.0;
+}
+
+button5 {
+    position: absolute;
+    top: 55.2vh;
+    left: 36.67vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/6.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button5:hover {
+    opacity: 1.0;
+}
+
+button6 {
+    position: absolute;
+    top: 55.2vh;
+    left: 55.7vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/7.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button6:hover {
+    opacity: 1.0;
+}
+
+button7 {
+    position: absolute;
+    top: 55.2vh;
+    left: 75.15vw;
+    width: 15vw;
+    height: 19vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/8.png);
+    background-color: #FFFFFF;
+    background-size: 15vw 19vh;
+    opacity: 0.7;
+    z-index: 1000;
+    -webkit-app-region: no-drag;
+}
+
+button7:hover {
+    opacity: 1.0;
+}
+
+settings {
+    position: absolute;
+    top: 2vh;
+    left: 92vw;
+    width: 5vw;
+    height: 7vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/settings.png);
+    background-size: 5vw 7vh;
+    opacity: 0.9;
+    z-index: 1010;
+    -webkit-app-region: no-drag;
+}
+
+home {
+    position: absolute;
+    top: 2vh;
+    left: 3vw;
+    width: 5vw;
+    height: 7vh;
+    border-radius: 0vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(images/home.png);
+    background-size: 5vw 7vh;
+    opacity: 0.8;
+    z-index: 990;
+    -webkit-app-region: no-drag;
+}
+
+home:hover {
+    opacity: 1.0;
+}
+
+home:active {
+    opacity: 0.5;
+}
